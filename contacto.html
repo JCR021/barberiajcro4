@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <title>Contacto - Baberia JCRO</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="productos.css">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Honk&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+
+            <div class="caja">
+
+                <h1 id="logo"><img src="logo.png" alt="Logo de barbería JCRO"></h1>
+
+                <nav>
+
+                    <ul class="navegacion">
+
+                        <li> <a href="index.html">Inicio</a> </li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+
+        </header>
+
+        <main class="formu">
+
+            <form >
+
+                <label for="Nombreyapellido">Nombre y apellido</label>
+                <input type="text" id="Nombreyapellido" class="padron" required placeholder="Juan Ramirez">
+
+
+                <label for="correo">Email</label>
+                <input type="email" id="correo" class="padron" required placeholder="email@dominio.com">
+
+
+                <label for="celular">Número de celular</label>
+                <input type="tel" id="celular" class="padron" required placeholder="+507 XXXXXXXX">
+
+
+                <label for="mensaje">Mensaje</label>
+                <textarea name="" id="mensaje" cols="70" rows="10" class="padron" required></textarea>
+
+
+                <fieldset class="fieldd">
+
+
+                    <legend>Le gustaría ser contactado de qué manera?</legend>
+
+
+                    <label for="radioemail"><input type="radio" name="contacto" value="Email" id="radioemail">Email</label>
+                    
+
+                    <label for="radiowhatsa" ><input type="radio" name="contacto" value="Whatsapp" id="radiowhatsa" checked> Whatsapp</label>
+                    
+
+                    <label for="radiocelu"><input type="radio" name="contacto" value="Celular" id="radiocelu">Celular</label>
+                    
+
+                </fieldset>
+
+                <fieldset class="field">
+
+                    <legend>Qué horario prefiere?</legend>
+                    <select class="opti">
+                        <option >En la mañana</option>
+                        <option >En la tarde</option>
+                        <option >En la noche</option>
+                    </select>
+
+                </fieldset>
+
+
+                <label class="checkbox" for=""><input type="checkbox" checked>Le gustaría recibir novedades de la barbería JCRO?</label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+
+
+            </form>
+
+
+
+            <table >
+
+                <thead>
+                    <th>Días</th>
+                    <th>Horarios</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lunes a viernes</td>
+                        <td>De 10am a 7pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sábados</td>
+                        <td>De 12pm a 8pm</td>
+                    </tr>
+                </tbody>
+
+
+
+            </table>
+
+
+
+
+        </main>
+
+
+        <footer>
+
+            <img src="logo blanco.png" alt="Logo de barbería JCRO">
+            <p class="copy">&copy;Derechos reservados del papucho de JCRO</p>
+            
+
+
+        </footer>
+        
+
+    </body>
+
+
+</html>

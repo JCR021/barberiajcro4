@@ -1,0 +1,313 @@
+body{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+}  
+
+
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.prodijios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.prodijios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 10px 25px 40px 50px;
+}
+
+.prodijios h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a:hover{
+    color: purple;
+    
+    
+
+}
+
+
+.prodijios li:hover h2 {
+    font-size: 33px;
+    
+}
+
+
+.prodijios li:hover{
+    border-color: purple;    
+    color: purple;
+    
+}
+
+
+.prodijios li:hover:active{
+    border-color: green;    
+    color: green;
+}
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px;
+}
+
+.copy{
+    color: white;
+    font-size: 13px;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer ;
+}
+
+.enviar:hover{
+    background: darkblue;
+    transform: scale(1.20);
+}
+
+.opti{
+    width: 20%;
+    font-size: 16px;
+    cursor:pointer ;
+}
+
+.field, .fieldd{
+    margin: 3% 0;
+}
+
+table{
+    margin: 40px 1px;
+}
+
+thead{
+    font-weight: bold;
+    background: plum;
+    color: white;
+
+}
+
+.formu{
+    margin: 0 0 0 15px;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+
+/*css para nuestra pagina inicial*/
+
+.principal{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.banner{
+    width: 100%;
+}
+
+.intro{
+    background: linear-gradient(white,gray);
+
+}
+
+.titulomain{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+}
+
+
+.principal p{
+    margin: 0 0 1em;
+
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 0;
+}
+
+.imadife{
+    width: 60%;
+    box-shadow: 10px 10px 30px 15px black, -10px -10px 30px 15px black;
+}
+
+.imadife:hover{
+    opacity: 0.5;
+    transition: 400ms;
+    
+}
+
+.mapa{
+    padding: 3em 0;
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+
+}
+.mapacont{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.video{
+
+    width: 560px;
+    margin: 1em  auto 0 auto;
+
+}
+
+.diferen{
+
+    padding: 3em 0;
+}
+.dife{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.listdife{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.titulomain::before{
+    content: "[";
+
+}
+
+.titulomain::after{
+    content: "]";
+
+}
+
+.items::before{
+    content: "\2730";
+}
+
+@media screen and  (max-width: 480px){
+    h1{
+        text-align: center;
+
+    }
+
+    .caja, .principal, .mapacont, .diferen, .video{
+        width: auto;
+    }
+
+    .listdife, .imadife{
+        width: 100%;
+    }
+}
